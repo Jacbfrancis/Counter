@@ -38,7 +38,7 @@ practicing how to use the javascript DOM to access and manipulate the contents o
 
 ### Useful resources
 
-- [Javascript projects for beginners](https://www.freecodecamp.org/news/javascript-projects-for-beginners).
+- [21 Javascript projects for beginners](https://www.freecodecamp.org/news/javascript-projects-for-beginners).
 
 ## Author
 
