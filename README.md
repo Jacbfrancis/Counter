@@ -20,7 +20,7 @@
 
 ### Link
 
-- Live Site URL: [javascript number counter](https://javascript-number-counter.netlify.app)
+- Live Site URL: [javascript number counter](https://guileless-duckanoo-5c3f8b.netlify.app/)
 
 
 ## My process
