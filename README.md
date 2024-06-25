@@ -19,7 +19,6 @@
 ![](screenshot_1.png)
 
 ### Link
-
 - Live Site URL: [javascript number counter](https://guileless-duckanoo-5c3f8b.netlify.app/)
 
 
