@@ -9,7 +9,6 @@
   - [Link](#link)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -17,7 +16,7 @@
 
 ### Screenshot
 
-![](screenshot-1.png)
+![](screenshot_1.png)
 
 ### Link
 
@@ -31,10 +30,6 @@
 - Semantic HTML5 markup
 - CSS custom properties
 - Javascript
-
-### What I learned
-
-practicing how to use the javascript DOM to access and manipulate the contents of a webpage.
 
 ### Useful resources
 

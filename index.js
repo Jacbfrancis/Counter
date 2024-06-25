@@ -1,33 +1,36 @@
-
-var counter = 0;
-
-
-document.querySelectorAll("button")[0].addEventListener("click", function() {
-    counter--;
-    document.querySelector("h2").innerText = counter;
-    color();
-});
-
-document.querySelectorAll("button")[1].addEventListener("click", function() {
-    counter = 0;
-    document.querySelector("h2").innerText = counter;
-    color();
-})
+const number = document.querySelector('h2')
+const increaseBtn = document.querySelector('.increase-btn')
+const decreaseBtn = document.querySelector('.decrease-btn')
+const resetBtn = document.querySelector('.reset-btn')
 
 
-document.querySelectorAll("button")[2].addEventListener("click", function() {
+let counter = 0;
+
+increaseBtn.addEventListener('click', () => {
     counter++;
-    document.querySelector("h2").innerText = counter;
-    color();
+    changeColor();
+    number.innerText = counter;
 })
- 
 
-function color() {
-    if (counter < 0) {
-        document.querySelector("h2").style.color = "red"; 
-    }else if (counter > 0){
-        document.querySelector("h2").style.color = "green";
-    }else {
-        document.querySelector("h2").style.color = "black"
-    }
+decreaseBtn.addEventListener('click', () => {
+  counter--;
+  changeColor();
+  number.innerText = counter;
+})
+
+resetBtn.addEventListener('click', () => {
+  counter = 0;
+  changeColor();
+  number.innerText = 0;
+})
+
+
+function changeColor() {
+  if (counter > 0) {
+    number.style.color = 'green';
+  } else if (counter < 0){
+    number.style.color = 'red';
+  } else {
+    number.style.color = 'slategrey';
+  }
 }
